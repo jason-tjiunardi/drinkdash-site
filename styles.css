@@ -1,0 +1,86 @@
+/* Tokens from dash-website/src/app/globals.css */
+:root {
+  --color-cream: #F8F3EA;
+  --color-charcoal: #0F0D0A;
+  --color-charcoal-eyebrow: rgba(15, 13, 10, 0.70);
+  --color-muted: rgba(15, 13, 10, 0.65);
+}
+
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url("assets/libre-bodoni.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url("assets/libre-bodoni-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/manrope.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+* { box-sizing: border-box; margin: 0; }
+
+html, body { height: 100%; }
+
+body {
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 0 16px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.mark {
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  font-family: "Libre Bodoni", "Bodoni Moda", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(40px, 8vw, 88px);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+h1 em { font-style: italic; }
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-charcoal-eyebrow);
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 12px;
+  color: var(--color-muted);
+}

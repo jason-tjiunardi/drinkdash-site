@@ -1,0 +1,5 @@
+Libre Bodoni: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
+Libre Bodoni: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
+Manrope ExtraLight: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+
+These fonts are licensed under the SIL Open Font License, Version 1.1: https://openfontlicense.org
